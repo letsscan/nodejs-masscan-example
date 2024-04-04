@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-masscan-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.4",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@minescope/mineping": "^1.4.1",
+    "axios": "^1.6.8",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module"
+}
